@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+/* Common */
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: block;
+    min-width: 205px;
+    height: 60px;
+    border-radius: 30px;
+    background: #2e80ce;
+    transition: 0.25s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
